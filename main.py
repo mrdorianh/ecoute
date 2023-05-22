@@ -6,6 +6,9 @@ import AudioRecorder
 import queue
 import time
 import torch
+from speech import say_text 
+
+say_text("Hello, I am Ecoute. I am a voice assistant that can help you with your daily tasks. I can also be your friend. I am here to listen to you. I am here to help you.'")
 
 def write_in_textbox(textbox, text):
     textbox.delete("0.0", "end")
